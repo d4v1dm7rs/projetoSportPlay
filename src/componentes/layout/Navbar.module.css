@@ -1,0 +1,18 @@
+.nav {
+    background-color: #0d5b8c;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    color: #fff;
+}
+
+.item {
+
+}
