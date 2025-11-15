@@ -9,10 +9,10 @@
 .list{
     list-style: none;
     display: flex;
-    gap: 25px;
-    color: #fff;
+    gap: 35px;
 }
 
-.item {
-
+.link {
+    text-decoration: none;
+    color: #fff;
 }

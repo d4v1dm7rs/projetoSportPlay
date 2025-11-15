@@ -1,0 +1,15 @@
+main {
+    margin: 15px;
+}
+
+.containerGeral {
+
+}
+
+.containerProdutos {
+}
+
+.linhaGrande {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
