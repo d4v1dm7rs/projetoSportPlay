@@ -10,10 +10,12 @@ function Home() {
                     <h2>Marca</h2>
                     <input type="text" />
                     <li>
-                        <ul>Adidas</ul>
-                        <ul>Nike</ul>
-                        <ul>Puma</ul>
-                        <ul>Fila</ul>
+                        <ul>Esportes</ul>
+                        <ul>Homens</ul>
+                        <ul>Mulheres</ul>
+                        <ul>Crianças</ul>
+                        <ul>Calçados</ul>
+                        <ul>Roupas</ul>
                     </li>
                 </div>
                 <div className={styles.containerProdutos}>

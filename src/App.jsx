@@ -4,6 +4,8 @@ import Header from './componentes/layout/header'
 import Footer from './componentes/layout/footer'
 import Navbar from './componentes/layout/Navbar'
 import Home from './componentes/layout/Home'
+import Empresa from './componentes/paginas/Empresa'
+import Contato from './componentes/paginas/Contato'
 
 function App() {
 
@@ -12,7 +14,11 @@ function App() {
       <div className="App">
         <Header/>
         <Navbar/>
-        <Home/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/empresa' element={<Empresa/>}/>
+          <Route path='/contato' element={<Contato/>}/>
+        </Routes>
         <Footer/>  
       </div>
     </>
