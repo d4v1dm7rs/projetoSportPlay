@@ -6,6 +6,9 @@ import elo from '../imagens/elo.png'
 import american from '../imagens/american.png'
 import hiper from '../imagens/hiper.png'
 import pix from '../imagens/pix.png'
+import face from '../icones/facebook.png'
+import insta from '../icones/instagram.png'
+import youtube from '../icones/youtube.png'
 
 function Footer() {
     return(
@@ -41,9 +44,11 @@ function Footer() {
                 </div>
                 <div className={styles.column}>
                     <h1> Redes Sociais </h1>
-                    <a href=""><img src="" alt="" /> Facebook </a>
-                    <a href=""> Instagram </a> 
-                    <a href=""> Youtube </a> 
+                    <a href=""><img src={face} alt="" className={styles.icon}/>Facebook </a>
+                    <br></br>
+                    <a href=""><img src={insta} alt="" className={styles.icon}/> Instagram </a> 
+                    <br></br>
+                    <a href=""><img src={youtube} alt="" className={styles.icon}/> Youtube </a> 
                 </div>
             </div>
         </footer>
