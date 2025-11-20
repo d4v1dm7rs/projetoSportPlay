@@ -44,11 +44,9 @@ function Footer() {
                 </div>
                 <div className={styles.column}>
                     <h1> Redes Sociais </h1>
-                    <a href=""><img src={face} alt="" className={styles.icon}/>Facebook </a>
-                    <br></br>
-                    <a href=""><img src={insta} alt="" className={styles.icon}/> Instagram </a> 
-                    <br></br>
-                    <a href=""><img src={youtube} alt="" className={styles.icon}/> Youtube </a> 
+                    <a href="" className={styles.textlink}><img src={face} alt="" className={styles.icon}/>Facebook </a>
+                    <a href="" className={styles.textlink}><img src={insta} alt="" className={styles.icon}/> Instagram </a> 
+                    <a href="" className={styles.textlink}><img src={youtube} alt="" className={styles.icon}/> Youtube </a> 
                 </div>
             </div>
         </footer>
