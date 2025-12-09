@@ -1,17 +1,25 @@
-import styles from '../css/Empresa.module.css'
+import stylesEmpresa from '../css/Empresa.module.css'
+import fotoIsabel from '../icones/fotoIsabel.jpg'
+import fotoDavid from '../icones/fotoDavid.jpg'
 
 function Empresa() {
     return (
-        <div className={styles.empresaContainer}>
+        <div className={stylesEmpresa.empresaContainer}>
             <h1>Equipe</h1>
-            <div className={styles.empresaContent}>
-                <div className={styles.empresaBloco}>
-                    <img src="" alt="" />
-                    <p>David</p>
+            <div className={stylesEmpresa.empresaContent}>
+
+                <div className={stylesEmpresa.empresaBloco}>
+                    <img src={fotoDavid} alt="" />
+                    
+                    <h2>David</h2>
+                    <p>FULL STACK</p>
                 </div>
-                <div className={styles.empresaBloco}>
-                    <img src="" alt="" />
-                    <p>Maria Isabel</p>
+
+                <div className={stylesEmpresa.empresaBloco}>
+                    <img src={fotoIsabel} alt="" />
+
+                    <h2>Maria Isabel</h2>
+                    <p>FULL STACK</p>
                 </div>
             </div>
         </div>

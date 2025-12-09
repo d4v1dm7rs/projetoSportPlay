@@ -11,9 +11,8 @@
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
-    margin-top: 17px;
+    display: inline;
+    row-gap: 10px;
 }
 
 .barraPesquisa {
@@ -28,4 +27,10 @@
     width: 30px;
     height: 30px;
     margin-top: 17px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }

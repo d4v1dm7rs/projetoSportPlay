@@ -5,7 +5,7 @@ import styles from "../layout/Home.module.css";
 function Home() {
   return (
     <main>
-        <Catalogo/>
+      <Catalogo/>
     </main>
   );
 }
