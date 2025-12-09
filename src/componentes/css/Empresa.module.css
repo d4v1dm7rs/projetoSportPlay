@@ -1,0 +1,19 @@
+.empresaContainer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.empresaContent{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 50px;
+}
+
+.empresaBloco {
+    box-shadow: 0 0 10px 1px;
+    border-radius: 10px;
+    width: 40%;
+    height: 400px;
+}
